@@ -1,28 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
-        <script src="index.js"></script>
-    </head>
-    <body>
-        <!-- 
-        Challenge 1:
-        Write the HTML for your personal website.
-        -->
-        <img src="dominik.jpg">
-        <h1>Hi my name is Dominik</h1>
-        
-        <h2>Fun facts about me: </h2>
-        
-        <ul>
-            <li>20 years old.</li>
-            <li> Live's in Hungary.</li>
-            <li> I like Martial Arts.</li>           
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- https://materializecss.com/navbar.html -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Dominik</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
         </ul>
-        <p>Please connect with me in <a href>LinkedIn here</a></p>
-        <input type="text" placeholder="Type email adress.....">
-        <button>Join newsletter</button>
-        
-    </body>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-image">
+          <img src="dominik.jpg" width="200" height="300" />
+          <span class="card-title">Hi I'm Dominik</span>
+        </div>
+        <div class="card-content">
+          <p>Fun facts about me:</p>
+          <ul>
+            <li>20 years old</li>
+            <li>Live's in Hungary</li>
+            <li>I like Martial Arts</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <a
+            href="https://www.linkedin.com/in/l%C3%A9ki-dominik-16563a221/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>

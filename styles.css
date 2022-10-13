@@ -12,65 +12,44 @@
     --sharp: 0;
     --soft: 10px;
     --round: 100px;
-    
+
     --image: var(--soft);
-    
-    --background: #f5f5f5;
+
+    --background: #ffffff;
     --text: #222222;
-    
+
     --light: var(--background);
     --dark: var(--text);
 }
 
 
-body, html {
+body,
+html {
     margin: 0;
-    padding: 10px;
-    background: var(--background);
-    color: var(--text);
-    font-family: var(--font);
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2e9e4;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-img {
-    width: 30%;
-    border-radius: calc(var(--image) * 2);
-    border: 4px solid var(--text);
+.brand-logo {
+    padding: 0 10px !important;
 }
 
-a {
-    color: var(--text);
+nav {
+    background-color: #22223b;
 }
 
-input {
-    display: block;
-    margin: 20px 0 0;
-    width: 160px;
-    box-sizing: border-box;
-    padding: 4px 8px;
-    border-width: 1px; 
-    border-style: solid;
-    border-color:  var(--text);
-    color: var(--text);
-    background: none;
-    border-radius: var(--image);
-    font-family: var(--font);
+.card {
+    max-width: 350px;
 }
 
-::placeholder {
-    color: var(--text);
-}
-
-button {
-    border-radius: var(--image);
-    padding: 5px 10px;
-    border: none;
-    background: var(--text);
-    color: var(--background);
-    font-weight: bold;
-    box-sizing: border-box;
-    display: block;
-    margin: 8px 0;
-    cursor: pointer;
-    font-family: var(--font);
-    width: 160px;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
